@@ -1,0 +1,19 @@
+|ALS_CI74157
+d0[0] => s.DATAA
+d0[1] => s.DATAA
+d0[2] => s.DATAA
+d0[3] => s.DATAA
+d1[0] => s.DATAB
+d1[1] => s.DATAB
+d1[2] => s.DATAB
+d1[3] => s.DATAB
+sel => s.OUTPUTSELECT
+sel => s.OUTPUTSELECT
+sel => s.OUTPUTSELECT
+sel => s.OUTPUTSELECT
+s[0] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s.DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

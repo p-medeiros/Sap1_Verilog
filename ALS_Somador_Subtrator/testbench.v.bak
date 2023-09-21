@@ -1,0 +1,44 @@
+module testbench;
+
+  // Defina os sinais de entrada
+  reg [3:0] A;
+  reg [3:0] B;
+  reg Cin;
+  reg Subtrair;
+
+  // Defina os sinais de saída
+  wire [3:0] S;
+  wire Cout;
+
+  // Instancie o seu módulo
+  somador_subtrator uut (
+    .A(A),
+    .B(B),
+    .Cin(Cin),
+    .Subtrair(Subtrair),
+    .S(S),
+    .Cout(Cout)
+  );
+
+  // Simule o comportamento
+  initial begin
+    // Inicialize os sinais de entrada
+    A = 4'b0010;
+    B = 4'b1101;
+    Cin = 0;
+    Subtrair = 0;
+
+    // Aplique os estímulos
+    #10 A = 4'b1010;
+    #10 B = 4'b0110;
+    #10 Cin = 1;
+    #10 Subtrair = 1;
+
+    // Verifique os resultados
+    #10 if (S !== 4'b1000 || Cout !== 0) $display("Teste falhou!");
+
+    // Encerre a simulação
+    $finish;
+  end
+
+endmodule

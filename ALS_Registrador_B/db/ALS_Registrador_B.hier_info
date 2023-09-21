@@ -1,0 +1,75 @@
+|ALS_Registrador_B
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+clk => clk.IN2
+n_write => n_write.IN2
+s[0] << ALS_CI74173:ALS_CI74173_inst1.q
+s[1] << ALS_CI74173:ALS_CI74173_inst1.q
+s[2] << ALS_CI74173:ALS_CI74173_inst1.q
+s[3] << ALS_CI74173:ALS_CI74173_inst1.q
+s[4] << ALS_CI74173:ALS_CI74173_inst2.q
+s[5] << ALS_CI74173:ALS_CI74173_inst2.q
+s[6] << ALS_CI74173:ALS_CI74173_inst2.q
+s[7] << ALS_CI74173:ALS_CI74173_inst2.q
+
+
+|ALS_Registrador_B|ALS_CI74173:ALS_CI74173_inst1
+clk => q_reg[0].CLK
+clk => q_reg[1].CLK
+clk => q_reg[2].CLK
+clk => q_reg[3].CLK
+rst => q_reg[0].ACLR
+rst => q_reg[1].ACLR
+rst => q_reg[2].ACLR
+rst => q_reg[3].ACLR
+e_saida => q[0].OE
+e_saida => q[1].OE
+e_saida => q[2].OE
+e_saida => q[3].OE
+n_IE => q_reg[3].ENA
+n_IE => q_reg[2].ENA
+n_IE => q_reg[1].ENA
+n_IE => q_reg[0].ENA
+d[0] => q_reg[0].DATAIN
+d[1] => q_reg[1].DATAIN
+d[2] => q_reg[2].DATAIN
+d[3] => q_reg[3].DATAIN
+q[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALS_Registrador_B|ALS_CI74173:ALS_CI74173_inst2
+clk => q_reg[0].CLK
+clk => q_reg[1].CLK
+clk => q_reg[2].CLK
+clk => q_reg[3].CLK
+rst => q_reg[0].ACLR
+rst => q_reg[1].ACLR
+rst => q_reg[2].ACLR
+rst => q_reg[3].ACLR
+e_saida => q[0].OE
+e_saida => q[1].OE
+e_saida => q[2].OE
+e_saida => q[3].OE
+n_IE => q_reg[3].ENA
+n_IE => q_reg[2].ENA
+n_IE => q_reg[1].ENA
+n_IE => q_reg[0].ENA
+d[0] => q_reg[0].DATAIN
+d[1] => q_reg[1].DATAIN
+d[2] => q_reg[2].DATAIN
+d[3] => q_reg[3].DATAIN
+q[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,54 @@
+# Compile of SomadorSubtrator.v was successful.
+# Compile of testbench.v was successful.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 10:19:35 on Sep 15,2023
+# Loading work.testbench
+# Loading work.SomadorSubtrator
+add wave -position end  sim:/testbench/A
+add wave -position end  sim:/testbench/B
+add wave -position end  sim:/testbench/Cin
+add wave -position end  sim:/testbench/Subtrair
+add wave -position end  sim:/testbench/S
+add wave -position end  sim:/testbench/Cout
+run
+# Teste falhou!
+# Compile of SomadorSubtrator.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of SomadorSubtrator.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 10:25:58 on Sep 15,2023, Elapsed time: 0:06:23
+# Errors: 0, Warnings: 5
+# vsim -gui work.testbench 
+# Start time: 10:25:58 on Sep 15,2023
+# Loading work.testbench
+# Loading work.SomadorSubtrator
+add wave -position end  sim:/testbench/A
+add wave -position end  sim:/testbench/B
+add wave -position end  sim:/testbench/Cin
+add wave -position end  sim:/testbench/Subtrair
+add wave -position end  sim:/testbench/S
+add wave -position end  sim:/testbench/Cout
+run
+# Teste falhou!
+# Compile of SomadorSubtrator.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 10:37:15 on Sep 15,2023, Elapsed time: 0:11:17
+# Errors: 0, Warnings: 2
+# vsim -gui work.testbench 
+# Start time: 10:37:15 on Sep 15,2023
+# Loading work.testbench
+# Loading work.SomadorSubtrator
+add wave -position end  sim:/testbench/A
+add wave -position end  sim:/testbench/B
+add wave -position end  sim:/testbench/Cin
+add wave -position end  sim:/testbench/Subtrair
+add wave -position end  sim:/testbench/S
+add wave -position end  sim:/testbench/Cout
+run
+# Teste falhou!

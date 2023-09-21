@@ -1,0 +1,27 @@
+|ALS_Contador_de_Programa
+n_clk => tempS[0].CLK
+n_clk => tempS[1].CLK
+n_clk => tempS[2].CLK
+n_clk => tempS[3].CLK
+n_clr => tempS[0].ACLR
+n_clr => tempS[1].ACLR
+n_clr => tempS[2].ACLR
+n_clr => tempS[3].ACLR
+cp => tempS[3].ENA
+cp => tempS[2].ENA
+cp => tempS[1].ENA
+cp => tempS[0].ENA
+ep => s[0].OE
+ep => s[1].OE
+ep => s[2].OE
+ep => s[3].OE
+s[0] <= s[0].DB_MAX_OUTPUT_PORT_TYPE
+s[1] <= s[1].DB_MAX_OUTPUT_PORT_TYPE
+s[2] <= s[2].DB_MAX_OUTPUT_PORT_TYPE
+s[3] <= s[3].DB_MAX_OUTPUT_PORT_TYPE
+temp[0] <= s[0].DB_MAX_OUTPUT_PORT_TYPE
+temp[1] <= s[1].DB_MAX_OUTPUT_PORT_TYPE
+temp[2] <= s[2].DB_MAX_OUTPUT_PORT_TYPE
+temp[3] <= s[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
