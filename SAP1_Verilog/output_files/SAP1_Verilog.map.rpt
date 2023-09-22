@@ -1,5 +1,5 @@
 Analysis & Synthesis report for SAP1_Verilog
-Thu Sep 21 19:45:53 2023
+Thu Sep 21 23:32:06 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,19 +10,28 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Port Connectivity Checks: "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2"
-  6. Port Connectivity Checks: "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst1"
-  7. Port Connectivity Checks: "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2"
-  8. Port Connectivity Checks: "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1"
-  9. Port Connectivity Checks: "SomadorSubtrator:somador_subtrator_inst"
- 10. Port Connectivity Checks: "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2"
- 11. Port Connectivity Checks: "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1"
- 12. Port Connectivity Checks: "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2"
- 13. Port Connectivity Checks: "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst1"
- 14. Port Connectivity Checks: "ALS_RAM16x8:ram_inst"
- 15. Port Connectivity Checks: "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst"
- 16. Analysis & Synthesis Messages
- 17. Analysis & Synthesis Suppressed Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. General Register Statistics
+ 10. Inverted Register Statistics
+ 11. Parameter Settings for Inferred Entity Instance: SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0
+ 12. Port Connectivity Checks: "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2"
+ 13. Port Connectivity Checks: "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst1"
+ 14. Port Connectivity Checks: "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2"
+ 15. Port Connectivity Checks: "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1"
+ 16. Port Connectivity Checks: "SomadorSubtrator:somador_subtrator_inst"
+ 17. Port Connectivity Checks: "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2"
+ 18. Port Connectivity Checks: "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1"
+ 19. Port Connectivity Checks: "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2"
+ 20. Port Connectivity Checks: "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst1"
+ 21. Port Connectivity Checks: "ALS_RAM16x8:ram_inst"
+ 22. Port Connectivity Checks: "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst"
+ 23. Post-Synthesis Netlist Statistics for Top Partition
+ 24. Elapsed Time Per Partition
+ 25. Analysis & Synthesis Messages
+ 26. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -49,22 +58,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Failed - Thu Sep 21 19:45:53 2023           ;
+; Analysis & Synthesis Status        ; Successful - Thu Sep 21 23:32:06 2023       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; SAP1_Verilog                                ;
 ; Top-level Entity Name              ; SAP1_Verilog                                ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; N/A until Partition Merge                   ;
-;     Total combinational functions  ; N/A until Partition Merge                   ;
-;     Dedicated logic registers      ; N/A until Partition Merge                   ;
-; Total registers                    ; N/A until Partition Merge                   ;
-; Total pins                         ; N/A until Partition Merge                   ;
-; Total virtual pins                 ; N/A until Partition Merge                   ;
-; Total memory bits                  ; N/A until Partition Merge                   ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
-; Total PLLs                         ; N/A until Partition Merge                   ;
-; UFM blocks                         ; N/A until Partition Merge                   ;
-; ADC blocks                         ; N/A until Partition Merge                   ;
+; Total logic elements               ; 119                                         ;
+;     Total combinational functions  ; 87                                          ;
+;     Dedicated logic registers      ; 46                                          ;
+; Total registers                    ; 46                                          ;
+; Total pins                         ; 83                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -163,11 +172,177 @@ https://fpgasoftware.intel.com/eula.
 ; Maximum allowed            ; 12          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 12          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-12        ;   0.0%      ;
 +----------------------------+-------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                     ;
++----------------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                               ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                   ; Library ;
++----------------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; ../ALS_Somador_Subtrator/SomadorSubtrator.v                    ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Somador_Subtrator/SomadorSubtrator.v                    ;         ;
+; ../ALS_REM_e_MUX_AA/ALS_REM_e_MUX_AA.v                         ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_REM_e_MUX_AA/ALS_REM_e_MUX_AA.v                         ;         ;
+; ../ALS_Registrador_de_Saida/ALS_Registrador_de_Saida.v         ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Registrador_de_Saida/ALS_Registrador_de_Saida.v         ;         ;
+; ../ALS_Registrador_de_Instrucao/ALS_Registrador_de_Instrucao.v ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Registrador_de_Instrucao/ALS_Registrador_de_Instrucao.v ;         ;
+; ../ALS_Registrador_B/ALS_Registrador_B.v                       ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Registrador_B/ALS_Registrador_B.v                       ;         ;
+; ../ALS_RAM16x8/ALS_RAM16x8.v                                   ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v                                   ;         ;
+; ../ALS_Controlador_Sequenciador/ALS_Controlador_Sequenciador.v ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Controlador_Sequenciador/ALS_Controlador_Sequenciador.v ;         ;
+; ../ALS_Contador_de_Programa/ALS_Contador_de_Programa.v         ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Contador_de_Programa/ALS_Contador_de_Programa.v         ;         ;
+; ../ALS_Contador_Anel/ALS_Contador_Anel.v                       ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Contador_Anel/ALS_Contador_Anel.v                       ;         ;
+; ../ALS_CI74173/ALS_CI74173.v                                   ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v                                   ;         ;
+; ../ALS_CI74157/ALS_CI74157.v                                   ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74157/ALS_CI74157.v                                   ;         ;
+; ../ALS_Acumulador/ALS_Acumulador.v                             ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Acumulador/ALS_Acumulador.v                             ;         ;
+; SAP1_Verilog.v                                                 ; yes             ; User Verilog HDL File        ; C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v                                 ;         ;
+; lpm_add_sub.tdf                                                ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.tdf                         ;         ;
+; addcore.inc                                                    ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/addcore.inc                             ;         ;
+; look_add.inc                                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/look_add.inc                            ;         ;
+; bypassff.inc                                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/bypassff.inc                            ;         ;
+; altshift.inc                                                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/altshift.inc                            ;         ;
+; alt_stratix_add_sub.inc                                        ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc                 ;         ;
+; aglobal201.inc                                                 ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                          ;         ;
+; db/add_sub_29i.tdf                                             ; yes             ; Auto-Generated Megafunction  ; C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/db/add_sub_29i.tdf                             ;         ;
++----------------------------------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 119       ;
+;                                             ;           ;
+; Total combinational functions               ; 87        ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 36        ;
+;     -- 3 input functions                    ; 35        ;
+;     -- <=2 input functions                  ; 16        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 79        ;
+;     -- arithmetic mode                      ; 8         ;
+;                                             ;           ;
+; Total registers                             ; 46        ;
+;     -- Dedicated logic registers            ; 46        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 83        ;
+;                                             ;           ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 46        ;
+; Total fan-out                               ; 579       ;
+; Average fan-out                             ; 1.94      ;
++---------------------------------------------+-----------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                         ;
++------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------------------+------------------------------+--------------+
+; Compilation Hierarchy Node                           ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                               ; Entity Name                  ; Library Name ;
++------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------------------+------------------------------+--------------+
+; |SAP1_Verilog                                        ; 87 (0)              ; 46 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 83   ; 0            ; 0          ; |SAP1_Verilog                                                                                     ; SAP1_Verilog                 ; work         ;
+;    |ALS_Acumulador:acumulador_inst|                  ; 0 (0)               ; 8 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Acumulador:acumulador_inst                                                      ; ALS_Acumulador               ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst1|                ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1                        ; ALS_CI74173                  ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst2|                ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2                        ; ALS_CI74173                  ; work         ;
+;    |ALS_Contador_Anel:contadorinst|                  ; 2 (2)               ; 6 (6)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Contador_Anel:contadorinst                                                      ; ALS_Contador_Anel            ; work         ;
+;    |ALS_Contador_de_Programa:contador_inst|          ; 23 (23)             ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Contador_de_Programa:contador_inst                                              ; ALS_Contador_de_Programa     ; work         ;
+;    |ALS_Controlador_Sequenciador:controlador_inst|   ; 14 (14)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Controlador_Sequenciador:controlador_inst                                       ; ALS_Controlador_Sequenciador ; work         ;
+;    |ALS_RAM16x8:ram_inst|                            ; 27 (27)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_RAM16x8:ram_inst                                                                ; ALS_RAM16x8                  ; work         ;
+;    |ALS_REM_e_MUX_AA:rem_and_mux_inst|               ; 4 (0)               ; 4 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_REM_e_MUX_AA:rem_and_mux_inst                                                   ; ALS_REM_e_MUX_AA             ; work         ;
+;       |ALS_CI74157:ALS_CI74157_inst|                 ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74157:ALS_CI74157_inst                      ; ALS_CI74157                  ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst|                 ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst                      ; ALS_CI74173                  ; work         ;
+;    |ALS_Registrador_B:registrador_b_inst|            ; 0 (0)               ; 8 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_B:registrador_b_inst                                                ; ALS_Registrador_B            ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst1|                ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1                  ; ALS_CI74173                  ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst2|                ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2                  ; ALS_CI74173                  ; work         ;
+;    |ALS_Registrador_de_Instrucao:registrador_inst|   ; 0 (0)               ; 8 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_de_Instrucao:registrador_inst                                       ; ALS_Registrador_de_Instrucao ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst1|                ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst1         ; ALS_CI74173                  ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst2|                ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2         ; ALS_CI74173                  ; work         ;
+;    |ALS_Registrador_de_Saida:registrador_saida_inst| ; 0 (0)               ; 8 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_de_Saida:registrador_saida_inst                                     ; ALS_Registrador_de_Saida     ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst1|                ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst1       ; ALS_CI74173                  ; work         ;
+;       |ALS_CI74173:ALS_CI74173_inst2|                ; 0 (0)               ; 4 (4)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2       ; ALS_CI74173                  ; work         ;
+;    |SomadorSubtrator:somador_subtrator_inst|         ; 17 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|SomadorSubtrator:somador_subtrator_inst                                             ; SomadorSubtrator             ; work         ;
+;       |lpm_add_sub:Add0|                             ; 17 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0                            ; lpm_add_sub                  ; work         ;
+;          |add_sub_29i:auto_generated|                ; 17 (17)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SAP1_Verilog|SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated ; add_sub_29i                  ; work         ;
++------------------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------------------------------------------------------------------------------------+------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                              ;
++----------------------------------------------------+----------------------------------------------------+------------------------+
+; Latch Name                                         ; Latch Enable Signal                                ; Free of Timing Hazards ;
++----------------------------------------------------+----------------------------------------------------+------------------------+
+; ALS_RAM16x8:ram_inst|result[0]                     ; ALS_Controlador_Sequenciador:controlador_inst|n_ce ; yes                    ;
+; ALS_RAM16x8:ram_inst|result[1]                     ; ALS_Controlador_Sequenciador:controlador_inst|n_ce ; yes                    ;
+; ALS_RAM16x8:ram_inst|result[2]                     ; ALS_Controlador_Sequenciador:controlador_inst|n_ce ; yes                    ;
+; ALS_RAM16x8:ram_inst|result[3]                     ; ALS_Controlador_Sequenciador:controlador_inst|n_ce ; yes                    ;
+; ALS_RAM16x8:ram_inst|result[4]                     ; ALS_Controlador_Sequenciador:controlador_inst|n_ce ; yes                    ;
+; ALS_RAM16x8:ram_inst|result[5]                     ; ALS_Controlador_Sequenciador:controlador_inst|n_ce ; yes                    ;
+; ALS_RAM16x8:ram_inst|result[6]                     ; ALS_Controlador_Sequenciador:controlador_inst|n_ce ; yes                    ;
+; ALS_RAM16x8:ram_inst|result[7]                     ; ALS_Controlador_Sequenciador:controlador_inst|n_ce ; yes                    ;
+; Number of user-specified and inferred latches = 8  ;                                                    ;                        ;
++----------------------------------------------------+----------------------------------------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 46    ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 14    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 36    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------+
+; Inverted Register Statistics                     ;
++----------------------------------------+---------+
+; Inverted Register                      ; Fan out ;
++----------------------------------------+---------+
+; ALS_Contador_Anel:contadorinst|q[0]    ; 12      ;
+; Total number of inverted registers = 1 ;         ;
++----------------------------------------+---------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0 ;
++------------------------+-------------+--------------------------------------------------------------------+
+; Parameter Name         ; Value       ; Type                                                               ;
++------------------------+-------------+--------------------------------------------------------------------+
+; LPM_WIDTH              ; 8           ; Untyped                                                            ;
+; LPM_REPRESENTATION     ; UNSIGNED    ; Untyped                                                            ;
+; LPM_DIRECTION          ; DEFAULT     ; Untyped                                                            ;
+; ONE_INPUT_IS_CONSTANT  ; NO          ; Untyped                                                            ;
+; LPM_PIPELINE           ; 0           ; Untyped                                                            ;
+; MAXIMIZE_SPEED         ; 5           ; Untyped                                                            ;
+; REGISTERED_AT_END      ; 0           ; Untyped                                                            ;
+; OPTIMIZE_FOR_SPEED     ; 5           ; Untyped                                                            ;
+; USE_CS_BUFFERS         ; 1           ; Untyped                                                            ;
+; CARRY_CHAIN            ; MANUAL      ; Untyped                                                            ;
+; CARRY_CHAIN_LENGTH     ; 48          ; CARRY_CHAIN_LENGTH                                                 ;
+; DEVICE_FAMILY          ; MAX 10      ; Untyped                                                            ;
+; USE_WYS                ; OFF         ; Untyped                                                            ;
+; STYLE                  ; FAST        ; Untyped                                                            ;
+; CBXI_PARAMETER         ; add_sub_29i ; Untyped                                                            ;
+; AUTO_CARRY_CHAINS      ; ON          ; AUTO_CARRY                                                         ;
+; IGNORE_CARRY_BUFFERS   ; OFF         ; IGNORE_CARRY                                                       ;
+; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                                       ;
+; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                                     ;
++------------------------+-------------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +-----------------------------------------------------------------------------------------------------------+
@@ -210,23 +385,14 @@ https://fpgasoftware.intel.com/eula.
 +---------+-------+----------+-------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "SomadorSubtrator:somador_subtrator_inst"                                                                                                                  ;
-+----------+---------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type    ; Severity         ; Details                                                                                                                                      ;
-+----------+---------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
-; a        ; Unknown ; Critical Warning ; Named port was not declared by the instantiated entity                                                                                       ;
-; b        ; Unknown ; Critical Warning ; Named port was not declared by the instantiated entity                                                                                       ;
-; sub      ; Unknown ; Critical Warning ; Named port was not declared by the instantiated entity                                                                                       ;
-; eu       ; Unknown ; Critical Warning ; Named port was not declared by the instantiated entity                                                                                       ;
-; s        ; Unknown ; Critical Warning ; Named port was not declared by the instantiated entity                                                                                       ;
-; A        ; Input   ; Warning          ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; B        ; Input   ; Warning          ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; Cin      ; Input   ; Warning          ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; Subtrair ; Input   ; Warning          ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
-; S        ; Output  ; Warning          ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed.                                     ;
-; Cout     ; Output  ; Warning          ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed.                                     ;
-+----------+---------+------------------+----------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "SomadorSubtrator:somador_subtrator_inst"                                                                             ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                              ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
+; S    ; Output ; Warning  ; Output or bidir port (9 bits) is wider than the port expression (8 bits) it drives; bit(s) "S[8..8]" have no fanouts ;
+; Cout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed.             ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------+
@@ -286,13 +452,48 @@ https://fpgasoftware.intel.com/eula.
 +---------+-------+----------+---------------------------------------------------------------+
 
 
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 83                          ;
+; cycloneiii_ff         ; 46                          ;
+;     CLR               ; 10                          ;
+;     ENA               ; 32                          ;
+;     ENA CLR           ; 4                           ;
+; cycloneiii_io_obuf    ; 12                          ;
+; cycloneiii_lcell_comb ; 96                          ;
+;     arith             ; 8                           ;
+;         3 data inputs ; 8                           ;
+;     normal            ; 88                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 10                          ;
+;         2 data inputs ; 14                          ;
+;         3 data inputs ; 27                          ;
+;         4 data inputs ; 36                          ;
+;                       ;                             ;
+; Max LUT depth         ; 6.10                        ;
+; Average LUT depth     ; 3.56                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Sep 21 19:45:48 2023
+    Info: Processing started: Thu Sep 21 23:32:00 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SAP1_Verilog -c SAP1_Verilog
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -301,7 +502,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file /users/
 Info (12021): Found 1 design units, including 1 entities, in source file /users/pedro/desktop/sap1verilog/als_rem_e_mux_aa/als_rem_e_mux_aa.v
     Info (12023): Found entity 1: ALS_REM_e_MUX_AA File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_REM_e_MUX_AA/ALS_REM_e_MUX_AA.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file /users/pedro/desktop/sap1verilog/als_registrador_de_saida/als_registrador_de_saida.v
-    Info (12023): Found entity 1: ALS_Registrador_de_Saida File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Registrador_de_Saida/ALS_Registrador_de_Saida.v Line: 3
+    Info (12023): Found entity 1: ALS_Registrador_de_Saida File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Registrador_de_Saida/ALS_Registrador_de_Saida.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file /users/pedro/desktop/sap1verilog/als_registrador_de_instrucao/als_registrador_de_instrucao.v
     Info (12023): Found entity 1: ALS_Registrador_de_Instrucao File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Registrador_de_Instrucao/ALS_Registrador_de_Instrucao.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file /users/pedro/desktop/sap1verilog/als_registrador_b/als_registrador_b.v
@@ -322,6 +523,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file /users/
     Info (12023): Found entity 1: ALS_Acumulador File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Acumulador/ALS_Acumulador.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file sap1_verilog.v
     Info (12023): Found entity 1: SAP1_Verilog File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 2
+Info (12021): Found 1 design units, including 1 entities, in source file sap1_test.v
+    Info (12023): Found entity 1: SAP1_Test File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Test.v Line: 1
 Info (12127): Elaborating entity "SAP1_Verilog" for the top level hierarchy
 Info (12128): Elaborating entity "ALS_Contador_de_Programa" for hierarchy "ALS_Contador_de_Programa:contador_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 35
 Warning (10230): Verilog HDL assignment warning at ALS_Contador_de_Programa.v(14): truncated value with size 32 to match size of target (4) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Contador_de_Programa/ALS_Contador_de_Programa.v Line: 14
@@ -330,34 +533,131 @@ Info (12128): Elaborating entity "ALS_Controlador_Sequenciador" for hierarchy "A
 Info (12128): Elaborating entity "ALS_REM_e_MUX_AA" for hierarchy "ALS_REM_e_MUX_AA:rem_and_mux_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 76
 Info (12128): Elaborating entity "ALS_CI74173" for hierarchy "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_REM_e_MUX_AA/ALS_REM_e_MUX_AA.v Line: 18
 Info (12128): Elaborating entity "ALS_CI74157" for hierarchy "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74157:ALS_CI74157_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_REM_e_MUX_AA/ALS_REM_e_MUX_AA.v Line: 24
-Info (12128): Elaborating entity "ALS_RAM16x8" for hierarchy "ALS_RAM16x8:ram_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 93
+Info (12128): Elaborating entity "ALS_RAM16x8" for hierarchy "ALS_RAM16x8:ram_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 84
 Warning (10240): Verilog HDL Always Construct warning at ALS_RAM16x8.v(14): inferring latch(es) for variable "result", which holds its previous value in one or more paths through the always construct File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 14
-Info (10041): Inferred latch for "result[0]" at ALS_RAM16x8.v(35) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 35
-Info (10041): Inferred latch for "result[1]" at ALS_RAM16x8.v(35) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 35
-Info (10041): Inferred latch for "result[2]" at ALS_RAM16x8.v(35) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 35
-Info (10041): Inferred latch for "result[3]" at ALS_RAM16x8.v(35) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 35
-Info (10041): Inferred latch for "result[4]" at ALS_RAM16x8.v(35) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 35
-Info (10041): Inferred latch for "result[5]" at ALS_RAM16x8.v(35) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 35
-Info (10041): Inferred latch for "result[6]" at ALS_RAM16x8.v(35) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 35
-Info (10041): Inferred latch for "result[7]" at ALS_RAM16x8.v(35) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 35
-Info (12128): Elaborating entity "ALS_Registrador_de_Instrucao" for hierarchy "ALS_Registrador_de_Instrucao:registrador_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 103
-Info (12128): Elaborating entity "ALS_Acumulador" for hierarchy "ALS_Acumulador:acumulador_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 112
-Info (12128): Elaborating entity "SomadorSubtrator" for hierarchy "SomadorSubtrator:somador_subtrator_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 123
-Warning (10230): Verilog HDL assignment warning at SomadorSubtrator.v(15): truncated value with size 32 to match size of target (8) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Somador_Subtrator/SomadorSubtrator.v Line: 15
-Info (12128): Elaborating entity "ALS_Registrador_B" for hierarchy "ALS_Registrador_B:registrador_b_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 131
-Info (12128): Elaborating entity "ALS_Registrador_de_Saida" for hierarchy "ALS_Registrador_de_Saida:registrador_saida_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 141
-Error (12002): Port "a" does not exist in macrofunction "somador_subtrator_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 123
-Error (12002): Port "b" does not exist in macrofunction "somador_subtrator_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 123
-Error (12002): Port "eu" does not exist in macrofunction "somador_subtrator_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 123
-Error (12002): Port "s" does not exist in macrofunction "somador_subtrator_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 123
-Error (12002): Port "sub" does not exist in macrofunction "somador_subtrator_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 123
+Info (10041): Inferred latch for "result[0]" at ALS_RAM16x8.v(33) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (10041): Inferred latch for "result[1]" at ALS_RAM16x8.v(33) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (10041): Inferred latch for "result[2]" at ALS_RAM16x8.v(33) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (10041): Inferred latch for "result[3]" at ALS_RAM16x8.v(33) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (10041): Inferred latch for "result[4]" at ALS_RAM16x8.v(33) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (10041): Inferred latch for "result[5]" at ALS_RAM16x8.v(33) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (10041): Inferred latch for "result[6]" at ALS_RAM16x8.v(33) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (10041): Inferred latch for "result[7]" at ALS_RAM16x8.v(33) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (12128): Elaborating entity "ALS_Registrador_de_Instrucao" for hierarchy "ALS_Registrador_de_Instrucao:registrador_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 94
+Info (12128): Elaborating entity "ALS_Acumulador" for hierarchy "ALS_Acumulador:acumulador_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 103
+Info (12128): Elaborating entity "SomadorSubtrator" for hierarchy "SomadorSubtrator:somador_subtrator_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 114
+Warning (10230): Verilog HDL assignment warning at SomadorSubtrator.v(16): truncated value with size 32 to match size of target (8) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Somador_Subtrator/SomadorSubtrator.v Line: 16
+Warning (10230): Verilog HDL assignment warning at SomadorSubtrator.v(28): truncated value with size 8 to match size of target (1) File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Somador_Subtrator/SomadorSubtrator.v Line: 28
+Info (12128): Elaborating entity "ALS_Registrador_B" for hierarchy "ALS_Registrador_B:registrador_b_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 122
+Info (12128): Elaborating entity "ALS_Registrador_de_Saida" for hierarchy "ALS_Registrador_de_Saida:registrador_saida_inst" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 132
+Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13049): Converted tri-state buffer "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst|q[0]" feeding internal logic into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13049): Converted tri-state buffer "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst|q[1]" feeding internal logic into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13049): Converted tri-state buffer "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst|q[2]" feeding internal logic into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13049): Converted tri-state buffer "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst|q[3]" feeding internal logic into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+Info (278001): Inferred 1 megafunctions from design logic
+    Info (278002): Inferred adder/subtractor megafunction ("lpm_add_sub") from the following logic: "SomadorSubtrator:somador_subtrator_inst|Add0" File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Somador_Subtrator/SomadorSubtrator.v Line: 16
+Info (12130): Elaborated megafunction instantiation "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0" File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Somador_Subtrator/SomadorSubtrator.v Line: 16
+Info (12133): Instantiated megafunction "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0" with the following parameter: File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Somador_Subtrator/SomadorSubtrator.v Line: 16
+    Info (12134): Parameter "LPM_WIDTH" = "8"
+    Info (12134): Parameter "LPM_DIRECTION" = "DEFAULT"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "ONE_INPUT_IS_CONSTANT" = "NO"
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_29i.tdf
+    Info (12023): Found entity 1: add_sub_29i File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/db/add_sub_29i.tdf Line: 23
 Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13044): Always-enabled tri-state buffer(s) removed
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst1|q[0]" to the node "out[0]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst1|q[1]" to the node "out[1]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst1|q[2]" to the node "out[2]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst1|q[3]" to the node "out[3]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2|q[0]" to the node "out[4]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2|q[1]" to the node "out[5]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2|q[2]" to the node "out[6]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2|q[3]" to the node "out[7]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2|q[0]" to the node "temp_mem[0]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2|q[1]" to the node "temp_mem[1]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2|q[2]" to the node "temp_mem[2]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2|q[3]" to the node "temp_mem[3]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1|q[0]" to the node "temp_regB[0]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1|q[1]" to the node "temp_regB[1]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1|q[2]" to the node "temp_regB[2]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1|q[3]" to the node "temp_regB[3]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2|q[0]" to the node "temp_regB[4]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2|q[1]" to the node "temp_regB[5]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2|q[2]" to the node "temp_regB[6]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2|q[3]" to the node "temp_regB[7]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1|q[0]" to the node "temp_acumulador[0]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1|q[1]" to the node "temp_acumulador[1]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1|q[2]" to the node "temp_acumulador[2]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1|q[3]" to the node "temp_acumulador[3]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2|q[0]" to the node "temp_acumulador[4]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2|q[1]" to the node "temp_acumulador[5]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2|q[2]" to the node "temp_acumulador[6]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2|q[3]" to the node "temp_acumulador[7]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1|q[0]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|_" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1|q[1]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|_" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1|q[2]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|_" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst1|q[3]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|_" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2|q[0]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|_" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2|q[1]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|_" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2|q[2]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|_" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Registrador_B:registrador_b_inst|ALS_CI74173:ALS_CI74173_inst2|q[3]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|_" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1|q[0]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|result_int[1]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1|q[1]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|result_int[2]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1|q[2]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|result_int[3]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst1|q[3]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|result_int[4]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2|q[0]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|result_int[5]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2|q[1]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|result_int[6]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2|q[2]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|result_int[7]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13045): Converted the fanout from the always-enabled tri-state buffer "ALS_Acumulador:acumulador_inst|ALS_CI74173:ALS_CI74173_inst2|q[3]" to the node "SomadorSubtrator:somador_subtrator_inst|lpm_add_sub:Add0|add_sub_29i:auto_generated|result_int[8]" into a wire File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2|q[0]" to the node "ALS_Controlador_Sequenciador:controlador_inst|Equal0" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2|q[1]" to the node "ALS_Controlador_Sequenciador:controlador_inst|Equal0" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2|q[2]" to the node "ALS_Controlador_Sequenciador:controlador_inst|Equal0" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_Registrador_de_Instrucao:registrador_inst|ALS_CI74173:ALS_CI74173_inst2|q[3]" to the node "ALS_Controlador_Sequenciador:controlador_inst|Equal0" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_CI74173/ALS_CI74173.v Line: 12
+Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_Contador_de_Programa:contador_inst|s[0]" to the node "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst|q_reg[0]" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Contador_de_Programa/ALS_Contador_de_Programa.v Line: 6
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_Contador_de_Programa:contador_inst|s[1]" to the node "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst|q_reg[1]" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Contador_de_Programa/ALS_Contador_de_Programa.v Line: 6
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_Contador_de_Programa:contador_inst|s[2]" to the node "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst|q_reg[2]" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Contador_de_Programa/ALS_Contador_de_Programa.v Line: 6
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_Contador_de_Programa:contador_inst|s[3]" to the node "ALS_REM_e_MUX_AA:rem_and_mux_inst|ALS_CI74173:ALS_CI74173_inst|q_reg[3]" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Contador_de_Programa/ALS_Contador_de_Programa.v Line: 6
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_RAM16x8:ram_inst|s[4]" to the node "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2|q_reg[0]" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 9
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_RAM16x8:ram_inst|s[5]" to the node "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2|q_reg[1]" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 9
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_RAM16x8:ram_inst|s[6]" to the node "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2|q_reg[2]" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 9
+    Warning (13047): Converted the fan-out from the tri-state buffer "ALS_RAM16x8:ram_inst|s[7]" to the node "ALS_Registrador_de_Saida:registrador_saida_inst|ALS_CI74173:ALS_CI74173_inst2|q_reg[3]" into an OR gate File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 9
+Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
+    Info (13026): Duplicate LATCH primitive "ALS_RAM16x8:ram_inst|result[6]" merged with LATCH primitive "ALS_RAM16x8:ram_inst|result[5]" File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+    Info (13026): Duplicate LATCH primitive "ALS_RAM16x8:ram_inst|result[7]" merged with LATCH primitive "ALS_RAM16x8:ram_inst|result[5]" File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_RAM16x8/ALS_RAM16x8.v Line: 33
+Info (13000): Registers with preset signals will power-up high File: C:/Users/Pedro/Desktop/Sap1Verilog/ALS_Contador_Anel/ALS_Contador_Anel.v Line: 11
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "temp_mem[4]" is stuck at GND File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 12
+    Warning (13410): Pin "temp_mem[5]" is stuck at GND File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 12
+    Warning (13410): Pin "temp_mem[6]" is stuck at GND File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 12
+    Warning (13410): Pin "temp_mem[7]" is stuck at GND File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 12
+Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/output_files/SAP1_Verilog.map.smsg
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 5 errors, 5 warnings
-    Error: Peak virtual memory: 4712 megabytes
-    Error: Processing ended: Thu Sep 21 19:45:53 2023
-    Error: Elapsed time: 00:00:05
-    Error: Total CPU time (on all processors): 00:00:05
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 9 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "ch_s4" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 6
+    Warning (15610): No output dependent on input pin "d[0]" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 8
+    Warning (15610): No output dependent on input pin "d[1]" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 8
+    Warning (15610): No output dependent on input pin "d[2]" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 8
+    Warning (15610): No output dependent on input pin "d[3]" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 8
+    Warning (15610): No output dependent on input pin "d[4]" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 8
+    Warning (15610): No output dependent on input pin "d[5]" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 8
+    Warning (15610): No output dependent on input pin "d[6]" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 8
+    Warning (15610): No output dependent on input pin "d[7]" File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 8
+Info (21057): Implemented 210 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 16 input pins
+    Info (21059): Implemented 67 output pins
+    Info (21061): Implemented 127 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 85 warnings
+    Info: Peak virtual memory: 4859 megabytes
+    Info: Processing ended: Thu Sep 21 23:32:06 2023
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:05
 
 
 +------------------------------------------+

@@ -1,0 +1,347 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog
+vALS_Acumulador
+Z1 !s110 1695350748
+!i10b 1
+!s100 ?b<XRlhPeh11X2WQ?BCG12
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ImJQ@U4oKk[l6^hU1YiXiQ1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1695320008
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Acumulador.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Acumulador.v
+!i122 141
+L0 2 28
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1695350748.000000
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Acumulador.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Acumulador.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@a@l@s_@acumulador
+vALS_CI74157
+R1
+!i10b 1
+!s100 2X>VaVjL<g=;OQIciR4:F3
+R2
+I7foJ2z1f43;C3I:An_jma0
+R3
+R0
+w1695329255
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74157.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74157.v
+!i122 142
+L0 2 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74157.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74157.v|
+!i113 1
+R6
+R7
+n@a@l@s_@c@i74157
+vALS_CI74173
+R1
+!i10b 1
+!s100 R85O>^Fi10Bj97H2[YaID3
+R2
+ISzcYJk6G>VU8m625gbUno3
+R3
+R0
+w1695317568
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74173.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74173.v
+!i122 143
+L0 5 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74173.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74173.v|
+!i113 1
+R6
+R7
+n@a@l@s_@c@i74173
+vALS_Contador_Anel
+R1
+!i10b 1
+!s100 amPNjjgNeXDYE7R=R3BNP1
+R2
+II;^F4kd1c9;[35S_J`EGK1
+R3
+R0
+w1695321601
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_Anel.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_Anel.v
+!i122 144
+L0 1 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_Anel.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_Anel.v|
+!i113 1
+R6
+R7
+n@a@l@s_@contador_@anel
+vALS_Contador_de_Programa
+R1
+!i10b 1
+!s100 S_;_V_?=dPMKN@UPYmeHg3
+R2
+I5W9B2eTRdELTLzzi5Rhjo2
+R3
+R0
+w1695321246
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_de_Programa.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_de_Programa.v
+!i122 145
+L0 1 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_de_Programa.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_de_Programa.v|
+!i113 1
+R6
+R7
+n@a@l@s_@contador_de_@programa
+vALS_Controlador_Sequenciador
+Z8 !s110 1695350749
+!i10b 1
+!s100 oM9bVQ2a`9dTf=<8Ql3_h0
+R2
+I]]Mc>Zn<6aV4Yg<DF2Q150
+R3
+R0
+w1695322136
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Controlador_Sequenciador.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Controlador_Sequenciador.v
+!i122 146
+L0 2 30
+R4
+r1
+!s85 0
+31
+Z9 !s108 1695350749.000000
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Controlador_Sequenciador.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Controlador_Sequenciador.v|
+!i113 1
+R6
+R7
+n@a@l@s_@controlador_@sequenciador
+vALS_RAM16x8
+R8
+!i10b 1
+!s100 zFLFRPe8EWOf4hBEc<J^J3
+R2
+I>mIAQOg:lO:dU=h;UH[Nh3
+R3
+R0
+w1695346639
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_RAM16x8.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_RAM16x8.v
+!i122 147
+L0 3 36
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_RAM16x8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_RAM16x8.v|
+!i113 1
+R6
+R7
+n@a@l@s_@r@a@m16x8
+vALS_Registrador_B
+R8
+!i10b 1
+!s100 ADVfgQlRNjAV0j:>biSSB0
+R2
+I;lgDn4n[JiP<UeFTZLe8e1
+R3
+R0
+w1695345165
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_B.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_B.v
+!i122 148
+L0 3 25
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_B.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_B.v|
+!i113 1
+R6
+R7
+n@a@l@s_@registrador_@b
+vALS_Registrador_de_Instrucao
+R8
+!i10b 1
+!s100 :?=gVU[GH^M<izN[;bWS92
+R2
+IH;[QmROe3IYI:C6A4zY]K1
+R3
+R0
+w1695325228
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Instrucao.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Instrucao.v
+!i122 149
+L0 2 27
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Instrucao.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Instrucao.v|
+!i113 1
+R6
+R7
+n@a@l@s_@registrador_de_@instrucao
+vALS_Registrador_de_Saida
+R8
+!i10b 1
+!s100 Z4KL<Yc[>2HX5R7J0T_>n0
+R2
+IL48J?65JLB]DK@0zazng80
+R3
+R0
+w1695345166
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Saida.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Saida.v
+!i122 150
+L0 2 25
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Saida.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Saida.v|
+!i113 1
+R6
+R7
+n@a@l@s_@registrador_de_@saida
+vALS_REM_e_MUX_AA
+R8
+!i10b 1
+!s100 R;0fWWOXDYL<h=W?0VS9I0
+R2
+I]<_n6WGm9ca0?McLb<TjX3
+R3
+R0
+w1695328956
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_REM_e_MUX_AA.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_REM_e_MUX_AA.v
+!i122 151
+L0 2 24
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_REM_e_MUX_AA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_REM_e_MUX_AA.v|
+!i113 1
+R6
+R7
+n@a@l@s_@r@e@m_e_@m@u@x_@a@a
+vSAP1_Test
+!s110 1695350813
+!i10b 1
+!s100 9TH:QlhU?zD:K8GJi^clL3
+R2
+IEMDe@0?=Bhl3UF]l8mW[<0
+R3
+R0
+w1695350744
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Test.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Test.v
+!i122 153
+L0 1 94
+R4
+r1
+!s85 0
+31
+!s108 1695350813.000000
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Test.v|
+!i113 1
+R6
+R7
+n@s@a@p1_@test
+vSAP1_Verilog
+R1
+!i10b 1
+!s100 B0]Eo]M3O;>NTI9eV21fb2
+R2
+I=mjk;od3g3j[hnlm]H4@[1
+R3
+R0
+w1695345469
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v
+!i122 140
+L0 2 134
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v|
+!i113 1
+R6
+R7
+n@s@a@p1_@verilog
+vSomadorSubtrator
+R8
+!i10b 1
+!s100 ;PU?b]:S9;IhHc03GMmE51
+R2
+IQo1fF4UXd>^A6[ab1[hA^3
+R3
+R0
+w1695345440
+8C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v
+FC:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v
+!i122 152
+L0 1 30
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v|
+!i113 1
+R6
+R7
+n@somador@subtrator

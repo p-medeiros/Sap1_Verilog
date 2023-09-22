@@ -1,0 +1,382 @@
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Verilog.v was successful.
+# Compile of ALS_Acumulador.v was successful.
+# Compile of ALS_CI74157.v was successful.
+# Compile of ALS_CI74173.v was successful.
+# Compile of ALS_Contador_Anel.v was successful.
+# Compile of ALS_Contador_de_Programa.v was successful.
+# Compile of ALS_Controlador_Sequenciador.v was successful.
+# Compile of ALS_RAM16x8.v was successful.
+# Compile of ALS_Registrador_B.v was successful.
+# Compile of ALS_Registrador_de_Instrucao.v was successful.
+# Compile of ALS_Registrador_de_Saida.v was successful.
+# Compile of ALS_REM_e_MUX_AA.v was successful.
+# Compile of SomadorSubtrator.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.SAP1_Test
+# vsim -gui work.SAP1_Test 
+# Start time: 23:35:06 on Sep 21,2023
+# Loading work.SAP1_Test
+# Loading work.SAP1_Verilog
+# Loading work.ALS_Contador_de_Programa
+# Loading work.ALS_Contador_Anel
+# Loading work.ALS_Controlador_Sequenciador
+# Loading work.ALS_REM_e_MUX_AA
+# Loading work.ALS_CI74173
+# Loading work.ALS_CI74157
+# Loading work.ALS_RAM16x8
+# Loading work.ALS_Registrador_de_Instrucao
+# Loading work.ALS_Acumulador
+# Loading work.SomadorSubtrator
+# Loading work.ALS_Registrador_B
+# Loading work.ALS_Registrador_de_Saida
+# ** Error: (vsim-3043) Unresolved reference to 'sap1_test'.
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Test.v Line: 59
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'somador_subtrator_inst'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'S'. The port definition is at: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3722) C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v(108): [TFMPC] - Missing connection for port 'Cout'.
+# Error loading design
+# End time: 23:35:07 on Sep 21,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 5
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Verilog.v was successful.
+# Compile of ALS_Acumulador.v was successful.
+# Compile of ALS_CI74157.v was successful.
+# Compile of ALS_CI74173.v was successful.
+# Compile of ALS_Contador_Anel.v was successful.
+# Compile of ALS_Contador_de_Programa.v was successful.
+# Compile of ALS_Controlador_Sequenciador.v was successful.
+# Compile of ALS_RAM16x8.v was successful.
+# Compile of ALS_Registrador_B.v was successful.
+# Compile of ALS_Registrador_de_Instrucao.v was successful.
+# Compile of ALS_Registrador_de_Saida.v was successful.
+# Compile of ALS_REM_e_MUX_AA.v was successful.
+# Compile of SomadorSubtrator.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.SAP1_Test
+# vsim -gui work.SAP1_Test 
+# Start time: 23:36:17 on Sep 21,2023
+# Loading work.SAP1_Test
+# Loading work.SAP1_Verilog
+# Loading work.ALS_Contador_de_Programa
+# Loading work.ALS_Contador_Anel
+# Loading work.ALS_Controlador_Sequenciador
+# Loading work.ALS_REM_e_MUX_AA
+# Loading work.ALS_CI74173
+# Loading work.ALS_CI74157
+# Loading work.ALS_RAM16x8
+# Loading work.ALS_Registrador_de_Instrucao
+# Loading work.ALS_Acumulador
+# Loading work.SomadorSubtrator
+# Loading work.ALS_Registrador_B
+# Loading work.ALS_Registrador_de_Saida
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'somador_subtrator_inst'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'S'. The port definition is at: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3722) C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v(108): [TFMPC] - Missing connection for port 'Cout'.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Verilog.v was successful.
+# Compile of ALS_Acumulador.v was successful.
+# Compile of ALS_CI74157.v was successful.
+# Compile of ALS_CI74173.v was successful.
+# Compile of ALS_Contador_Anel.v was successful.
+# Compile of ALS_Contador_de_Programa.v was successful.
+# Compile of ALS_Controlador_Sequenciador.v was successful.
+# Compile of ALS_RAM16x8.v was successful.
+# Compile of ALS_Registrador_B.v was successful.
+# Compile of ALS_Registrador_de_Instrucao.v was successful.
+# Compile of ALS_Registrador_de_Saida.v was successful.
+# Compile of ALS_REM_e_MUX_AA.v was successful.
+# Compile of SomadorSubtrator.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.SAP1_Test
+# End time: 23:36:48 on Sep 21,2023, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 6
+# vsim -gui work.SAP1_Test 
+# Start time: 23:36:48 on Sep 21,2023
+# Loading work.SAP1_Test
+# Loading work.SAP1_Verilog
+# Loading work.ALS_Contador_de_Programa
+# Loading work.ALS_Contador_Anel
+# Loading work.ALS_Controlador_Sequenciador
+# Loading work.ALS_REM_e_MUX_AA
+# Loading work.ALS_CI74173
+# Loading work.ALS_CI74157
+# Loading work.ALS_RAM16x8
+# Loading work.ALS_Registrador_de_Instrucao
+# Loading work.ALS_Acumulador
+# Loading work.SomadorSubtrator
+# Loading work.ALS_Registrador_B
+# Loading work.ALS_Registrador_de_Saida
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'somador_subtrator_inst'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'S'. The port definition is at: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3722) C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v(108): [TFMPC] - Missing connection for port 'Cout'.
+add wave -position end  sim:/SAP1_Test/CLK_PERIOD
+add wave -position end  sim:/SAP1_Test/clk
+add wave -position end  sim:/SAP1_Test/n_clr
+add wave -position end  sim:/SAP1_Test/ch_s2
+add wave -position end  sim:/SAP1_Test/ch_s4
+add wave -position end  sim:/SAP1_Test/a
+add wave -position end  sim:/SAP1_Test/d
+add wave -position end  sim:/SAP1_Test/out
+add wave -position end  sim:/SAP1_Test/barramento_principal
+add wave -position end  sim:/SAP1_Test/temp
+add wave -position end  sim:/SAP1_Test/temp_mem
+add wave -position end  sim:/SAP1_Test/temp_endereco
+add wave -position end  sim:/SAP1_Test/temp_regB
+add wave -position end  sim:/SAP1_Test/temp_acumulador
+add wave -position end  sim:/SAP1_Test/temp_ring_counter
+add wave -position end  sim:/SAP1_Test/n_hlt
+add wave -position end  sim:/SAP1_Test/ep
+add wave -position end  sim:/SAP1_Test/cp
+add wave -position end  sim:/SAP1_Test/n_lm
+add wave -position end  sim:/SAP1_Test/n_ce
+add wave -position end  sim:/SAP1_Test/n_l1
+add wave -position end  sim:/SAP1_Test/n_e1
+add wave -position end  sim:/SAP1_Test/n_la
+add wave -position end  sim:/SAP1_Test/ea
+add wave -position end  sim:/SAP1_Test/su
+add wave -position end  sim:/SAP1_Test/eu
+add wave -position end  sim:/SAP1_Test/n_lb
+add wave -position end  sim:/SAP1_Test/n_l0
+# Compile of SAP1_Test.v was successful.
+run
+# Iniciando teste do SAP-1...
+# Teste do SAP-1 concluído.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+run
+# Compile of SAP1_Test.v was successful.
+run
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Verilog.v was successful.
+# Compile of ALS_Acumulador.v was successful.
+# Compile of ALS_CI74157.v was successful.
+# Compile of ALS_CI74173.v was successful.
+# Compile of ALS_Contador_Anel.v was successful.
+# Compile of ALS_Contador_de_Programa.v was successful.
+# Compile of ALS_Controlador_Sequenciador.v was successful.
+# Compile of ALS_RAM16x8.v was successful.
+# Compile of ALS_Registrador_B.v was successful.
+# Compile of ALS_Registrador_de_Instrucao.v was successful.
+# Compile of ALS_Registrador_de_Saida.v was successful.
+# Compile of ALS_REM_e_MUX_AA.v was successful.
+# Compile of SomadorSubtrator.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.SAP1_Test
+# End time: 23:42:24 on Sep 21,2023, Elapsed time: 0:05:36
+# Errors: 0, Warnings: 21
+# vsim -gui work.SAP1_Test 
+# Start time: 23:42:24 on Sep 21,2023
+# Loading work.SAP1_Test
+# Loading work.SAP1_Verilog
+# Loading work.ALS_Contador_de_Programa
+# Loading work.ALS_Contador_Anel
+# Loading work.ALS_Controlador_Sequenciador
+# Loading work.ALS_REM_e_MUX_AA
+# Loading work.ALS_CI74173
+# Loading work.ALS_CI74157
+# Loading work.ALS_RAM16x8
+# Loading work.ALS_Registrador_de_Instrucao
+# Loading work.ALS_Acumulador
+# Loading work.SomadorSubtrator
+# Loading work.ALS_Registrador_B
+# Loading work.ALS_Registrador_de_Saida
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'somador_subtrator_inst'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'S'. The port definition is at: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3722) C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v(108): [TFMPC] - Missing connection for port 'Cout'.
+# Load canceled
+add wave -position end  sim:/SAP1_Test/CLK_PERIOD
+add wave -position end  sim:/SAP1_Test/clk
+add wave -position end  sim:/SAP1_Test/n_clr
+add wave -position end  sim:/SAP1_Test/ch_s2
+add wave -position end  sim:/SAP1_Test/ch_s4
+add wave -position end  sim:/SAP1_Test/a
+add wave -position end  sim:/SAP1_Test/d
+add wave -position end  sim:/SAP1_Test/out
+add wave -position end  sim:/SAP1_Test/barramento_principal
+add wave -position end  sim:/SAP1_Test/temp
+add wave -position end  sim:/SAP1_Test/temp_mem
+add wave -position end  sim:/SAP1_Test/temp_endereco
+add wave -position end  sim:/SAP1_Test/temp_regB
+add wave -position end  sim:/SAP1_Test/temp_acumulador
+add wave -position end  sim:/SAP1_Test/temp_ring_counter
+add wave -position end  sim:/SAP1_Test/n_hlt
+add wave -position end  sim:/SAP1_Test/ep
+add wave -position end  sim:/SAP1_Test/cp
+add wave -position end  sim:/SAP1_Test/n_lm
+add wave -position end  sim:/SAP1_Test/n_ce
+add wave -position end  sim:/SAP1_Test/n_l1
+add wave -position end  sim:/SAP1_Test/n_e1
+add wave -position end  sim:/SAP1_Test/n_la
+add wave -position end  sim:/SAP1_Test/ea
+add wave -position end  sim:/SAP1_Test/su
+add wave -position end  sim:/SAP1_Test/eu
+add wave -position end  sim:/SAP1_Test/n_lb
+add wave -position end  sim:/SAP1_Test/n_l0
+# Compile of SAP1_Test.v was successful.
+run
+# Iniciando teste do SAP-1...
+# Teste do SAP-1 concluído.
+# Compile of SAP1_Test.v was successful.
+run
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Verilog.v was successful.
+# Compile of ALS_Acumulador.v was successful.
+# Compile of ALS_CI74157.v was successful.
+# Compile of ALS_CI74173.v was successful.
+# Compile of ALS_Contador_Anel.v was successful.
+# Compile of ALS_Contador_de_Programa.v was successful.
+# Compile of ALS_Controlador_Sequenciador.v was successful.
+# Compile of ALS_RAM16x8.v was successful.
+# Compile of ALS_Registrador_B.v was successful.
+# Compile of ALS_Registrador_de_Instrucao.v was successful.
+# Compile of ALS_Registrador_de_Saida.v was successful.
+# Compile of ALS_REM_e_MUX_AA.v was successful.
+# Compile of SomadorSubtrator.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.SAP1_Test
+# End time: 23:45:19 on Sep 21,2023, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 7
+# vsim -gui work.SAP1_Test 
+# Start time: 23:45:19 on Sep 21,2023
+# Loading work.SAP1_Test
+# Loading work.SAP1_Verilog
+# Loading work.ALS_Contador_de_Programa
+# Loading work.ALS_Contador_Anel
+# Loading work.ALS_Controlador_Sequenciador
+# Loading work.ALS_REM_e_MUX_AA
+# Loading work.ALS_CI74173
+# Loading work.ALS_CI74157
+# Loading work.ALS_RAM16x8
+# Loading work.ALS_Registrador_de_Instrucao
+# Loading work.ALS_Acumulador
+# Loading work.SomadorSubtrator
+# Loading work.ALS_Registrador_B
+# Loading work.ALS_Registrador_de_Saida
+# ** Error: (vsim-3043) Unresolved reference to 'sap1_test'.
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Test.v Line: 59
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'somador_subtrator_inst'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'S'. The port definition is at: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3722) C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v(108): [TFMPC] - Missing connection for port 'Cout'.
+# Error loading design
+# End time: 23:45:20 on Sep 21,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 4
+# Compile of SAP1_Test.v was successful.
+# Compile of SAP1_Verilog.v was successful.
+# Compile of ALS_Acumulador.v was successful.
+# Compile of ALS_CI74157.v was successful.
+# Compile of ALS_CI74173.v was successful.
+# Compile of ALS_Contador_Anel.v was successful.
+# Compile of ALS_Contador_de_Programa.v was successful.
+# Compile of ALS_Controlador_Sequenciador.v was successful.
+# Compile of ALS_RAM16x8.v was successful.
+# Compile of ALS_Registrador_B.v was successful.
+# Compile of ALS_Registrador_de_Instrucao.v was successful.
+# Compile of ALS_Registrador_de_Saida.v was successful.
+# Compile of ALS_REM_e_MUX_AA.v was successful.
+# Compile of SomadorSubtrator.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim -gui work.SAP1_Test
+# vsim -gui work.SAP1_Test 
+# Start time: 23:45:58 on Sep 21,2023
+# Loading work.SAP1_Test
+# Loading work.SAP1_Verilog
+# Loading work.ALS_Contador_de_Programa
+# Loading work.ALS_Contador_Anel
+# Loading work.ALS_Controlador_Sequenciador
+# Loading work.ALS_REM_e_MUX_AA
+# Loading work.ALS_CI74173
+# Loading work.ALS_CI74157
+# Loading work.ALS_RAM16x8
+# Loading work.ALS_Registrador_de_Instrucao
+# Loading work.ALS_Acumulador
+# Loading work.SomadorSubtrator
+# Loading work.ALS_Registrador_B
+# Loading work.ALS_Registrador_de_Saida
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'somador_subtrator_inst'.  Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (8) for port 'S'. The port definition is at: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /SAP1_Test/sap1_inst/somador_subtrator_inst File: C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v Line: 108
+# ** Warning: (vsim-3722) C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v(108): [TFMPC] - Missing connection for port 'Cout'.
+add wave -position end  sim:/SAP1_Test/CLK_PERIOD
+add wave -position end  sim:/SAP1_Test/clk
+add wave -position end  sim:/SAP1_Test/n_clr
+add wave -position end  sim:/SAP1_Test/ch_s2
+add wave -position end  sim:/SAP1_Test/ch_s4
+add wave -position end  sim:/SAP1_Test/a
+add wave -position end  sim:/SAP1_Test/d
+add wave -position end  sim:/SAP1_Test/out
+add wave -position end  sim:/SAP1_Test/barramento_principal
+add wave -position end  sim:/SAP1_Test/temp
+add wave -position end  sim:/SAP1_Test/temp_mem
+add wave -position end  sim:/SAP1_Test/temp_endereco
+add wave -position end  sim:/SAP1_Test/temp_regB
+add wave -position end  sim:/SAP1_Test/temp_acumulador
+add wave -position end  sim:/SAP1_Test/temp_ring_counter
+add wave -position end  sim:/SAP1_Test/n_hlt
+add wave -position end  sim:/SAP1_Test/ep
+add wave -position end  sim:/SAP1_Test/cp
+add wave -position end  sim:/SAP1_Test/n_lm
+add wave -position end  sim:/SAP1_Test/n_ce
+add wave -position end  sim:/SAP1_Test/n_l1
+add wave -position end  sim:/SAP1_Test/n_e1
+add wave -position end  sim:/SAP1_Test/n_la
+add wave -position end  sim:/SAP1_Test/ea
+add wave -position end  sim:/SAP1_Test/su
+add wave -position end  sim:/SAP1_Test/eu
+add wave -position end  sim:/SAP1_Test/n_lb
+add wave -position end  sim:/SAP1_Test/n_l0
+add wave -position end  sim:/SAP1_Test/CLK_PERIOD
+add wave -position end  sim:/SAP1_Test/clk
+add wave -position end  sim:/SAP1_Test/n_clr
+add wave -position end  sim:/SAP1_Test/ch_s2
+add wave -position end  sim:/SAP1_Test/ch_s4
+add wave -position end  sim:/SAP1_Test/a
+add wave -position end  sim:/SAP1_Test/d
+add wave -position end  sim:/SAP1_Test/out
+add wave -position end  sim:/SAP1_Test/barramento_principal
+add wave -position end  sim:/SAP1_Test/temp
+add wave -position end  sim:/SAP1_Test/temp_mem
+add wave -position end  sim:/SAP1_Test/temp_endereco
+add wave -position end  sim:/SAP1_Test/temp_regB
+add wave -position end  sim:/SAP1_Test/temp_acumulador
+add wave -position end  sim:/SAP1_Test/temp_ring_counter
+add wave -position end  sim:/SAP1_Test/n_hlt
+add wave -position end  sim:/SAP1_Test/ep
+add wave -position end  sim:/SAP1_Test/cp
+add wave -position end  sim:/SAP1_Test/n_lm
+add wave -position end  sim:/SAP1_Test/n_ce
+add wave -position end  sim:/SAP1_Test/n_l1
+add wave -position end  sim:/SAP1_Test/n_e1
+add wave -position end  sim:/SAP1_Test/n_la
+add wave -position end  sim:/SAP1_Test/ea
+add wave -position end  sim:/SAP1_Test/su
+add wave -position end  sim:/SAP1_Test/eu
+add wave -position end  sim:/SAP1_Test/n_lb
+add wave -position end  sim:/SAP1_Test/n_l0
+# Compile of SAP1_Test.v was successful.
+run
+# Iniciando teste do SAP-1...
+# Teste do SAP-1 concluído.

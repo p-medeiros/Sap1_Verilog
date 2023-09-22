@@ -1,0 +1,92 @@
+C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/SomadorSubtrator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SomadorSubtrator
+
+Top level modules:
+	SomadorSubtrator
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Acumulador.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Acumulador.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_Acumulador
+
+Top level modules:
+	ALS_Acumulador
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_B.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_B.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_Registrador_B
+
+Top level modules:
+	ALS_Registrador_B
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/SAP1_Verilog.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SAP1_Verilog
+
+Top level modules:
+	SAP1_Verilog
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_Anel.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_Anel.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_Contador_Anel
+
+Top level modules:
+	ALS_Contador_Anel
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74173.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74173.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_CI74173
+
+Top level modules:
+	ALS_CI74173
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74157.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_CI74157.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_CI74157
+
+Top level modules:
+	ALS_CI74157
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Instrucao.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Instrucao.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_Registrador_de_Instrucao
+
+Top level modules:
+	ALS_Registrador_de_Instrucao
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_RAM16x8.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_RAM16x8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_RAM16x8
+
+Top level modules:
+	ALS_RAM16x8
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Saida.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Registrador_de_Saida.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_Registrador_de_Saida
+
+Top level modules:
+	ALS_Registrador_de_Saida
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Controlador_Sequenciador.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Controlador_Sequenciador.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_Controlador_Sequenciador
+
+Top level modules:
+	ALS_Controlador_Sequenciador
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_de_Programa.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_Contador_de_Programa.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_Contador_de_Programa
+
+Top level modules:
+	ALS_Contador_de_Programa
+
+} {} {}} C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_REM_e_MUX_AA.v {1 {vlog -work work -stats=none C:/Users/Pedro/Desktop/Sap1Verilog/SAP1_Verilog/Instancias/ALS_REM_e_MUX_AA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALS_REM_e_MUX_AA
+
+Top level modules:
+	ALS_REM_e_MUX_AA
+
+} {} {}}

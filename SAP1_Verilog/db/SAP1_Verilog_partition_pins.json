@@ -1,0 +1,289 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "barramento_principal[0]",
+					"strict" : false
+				},
+				{
+					"name" : "barramento_principal[1]",
+					"strict" : false
+				},
+				{
+					"name" : "barramento_principal[2]",
+					"strict" : false
+				},
+				{
+					"name" : "barramento_principal[3]",
+					"strict" : false
+				},
+				{
+					"name" : "barramento_principal[4]",
+					"strict" : false
+				},
+				{
+					"name" : "barramento_principal[5]",
+					"strict" : false
+				},
+				{
+					"name" : "barramento_principal[6]",
+					"strict" : false
+				},
+				{
+					"name" : "barramento_principal[7]",
+					"strict" : false
+				},
+				{
+					"name" : "temp[0]",
+					"strict" : false
+				},
+				{
+					"name" : "temp[1]",
+					"strict" : false
+				},
+				{
+					"name" : "temp[2]",
+					"strict" : false
+				},
+				{
+					"name" : "temp[3]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_mem[0]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_mem[1]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_mem[2]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_mem[3]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_endereco[0]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_endereco[1]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_endereco[2]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_endereco[3]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_regB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_regB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_regB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_regB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_regB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_regB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_regB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_regB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_acumulador[0]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_acumulador[1]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_acumulador[2]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_acumulador[3]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_acumulador[4]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_acumulador[5]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_acumulador[6]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_acumulador[7]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_ring_counter[0]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_ring_counter[1]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_ring_counter[2]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_ring_counter[3]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_ring_counter[4]",
+					"strict" : false
+				},
+				{
+					"name" : "temp_ring_counter[5]",
+					"strict" : false
+				},
+				{
+					"name" : "n_hlt",
+					"strict" : false
+				},
+				{
+					"name" : "ep",
+					"strict" : false
+				},
+				{
+					"name" : "cp",
+					"strict" : false
+				},
+				{
+					"name" : "n_lm",
+					"strict" : false
+				},
+				{
+					"name" : "n_ce",
+					"strict" : false
+				},
+				{
+					"name" : "n_l1",
+					"strict" : false
+				},
+				{
+					"name" : "n_e1",
+					"strict" : false
+				},
+				{
+					"name" : "n_la",
+					"strict" : false
+				},
+				{
+					"name" : "ea",
+					"strict" : false
+				},
+				{
+					"name" : "su",
+					"strict" : false
+				},
+				{
+					"name" : "eu",
+					"strict" : false
+				},
+				{
+					"name" : "n_lb",
+					"strict" : false
+				},
+				{
+					"name" : "n_l0",
+					"strict" : false
+				},
+				{
+					"name" : "a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ch_s2",
+					"strict" : false
+				},
+				{
+					"name" : "a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "n_clr",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

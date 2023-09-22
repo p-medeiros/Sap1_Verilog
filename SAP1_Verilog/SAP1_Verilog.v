@@ -75,15 +75,6 @@ module SAP1_Verilog (
     .s(addr)
   );
 
-  // Memória
-  /* ram ram_inst( */
-  /*   .d(d), */
-  /*   .a(addr), */
-  /*   .n_ce(n_ce), */
-  /*   .ch_s4(ch_s4), */
-  /*   .s(s), */
-  /*   .temp(temp_mem) */
-  /* ); */
   ALS_RAM16x8 ram_inst(
     .d(d),
     .a(addr),
@@ -119,7 +110,7 @@ module SAP1_Verilog (
     .B(regB),
     .Subtrair(su),
     .eu(eu),
-    .s(s)
+    .S(s)
   );
 
   // Registrador b
